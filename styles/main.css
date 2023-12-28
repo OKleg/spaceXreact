@@ -27,20 +27,13 @@
 }
 
 .selectedLaunchPad {
-	fill: red;
+	fill: blue;
 	opacity:1.0;   
 }
 
-.launchPads {
-	fill: orange;
-	opacity:1.0;
-}
 
-.transparentLaunchPads {
-	fill: white;
-	opacity:0.0;
-}
 
-.selectedLaunchPad {
-	fill: red;
-	opacity:1.0;
+
+
+
+
