@@ -1,3 +1,6 @@
+import {changeColor} from "./map";
+
+
 function LaunchList(props) {
 
     return (
@@ -8,7 +11,9 @@ function LaunchList(props) {
 
                 <ul>
                     {props.launches.map(launch => {
-                        return <li key={launch.id}>{launch.name}</li>
+                       return <li key={launch.id} onMouseOver={
+                            () => changeColor(launch.launchpad, props.mainRef)
+                        }>{launch.name}</li>
                     })}
                 </ul>
             </div>
